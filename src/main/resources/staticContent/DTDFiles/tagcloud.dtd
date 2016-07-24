@@ -1,0 +1,7 @@
+<!ELEMENT TagCloudData (EntriesByLabel)>
+<!ELEMENT EntriesByLabel (Karlsruhe?)>
+<!ELEMENT Karlsruhe (Entries)>
+<!ELEMENT Entries (Entry*)>
+<!ELEMENT Entry (HashTag, Counts)>
+<!ELEMENT HashTag ( #PCDATA ) >
+<!ELEMENT Counts ( #PCDATA ) > 
